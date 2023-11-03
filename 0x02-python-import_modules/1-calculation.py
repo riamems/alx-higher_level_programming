@@ -1,14 +1,16 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-from calculator_1 import add, subtract, multiply, divide
+from calculator_1 import add, sub, mul, div
 a = 10
 b = 5
+
 result_add = add(a, b)
-result_subtract = subtract(a, b)
-result_multiply = multiply(a, b)
-result_divide = divide(a, b)
-print(f"Adding {a} and {b} equals {result_add}")
-print(f"Subtracting {b} from {a} equals {result_subtract}")
-print(f"Multiplying {a} and {b} equals {result_multiply}")
-print(f"Dividing {a} by {b} equals {result_divide}")`
+result_sub = sub(a, b)
+result_mul = mul(a, b)
+result_div = div(a, b)
+
+print(result_add)
+print(result_sub)
+print(result_mul)
+print(result_div)
