@@ -5,11 +5,11 @@
 
 
 def is_same_class(obj, a_class):
-"""Checks if the given object is an instance
+    """Checks if the given object is an instance
 
-Args:
-obj (object): The object to check.
-a_class (class): The class to compare against.
+    Args:
+        obj (object): The object to check.
+        a_class (class): The class to compare against.
 
-"""
-return type(obj) == a_class
+    """
+    return type(obj) == a_class
