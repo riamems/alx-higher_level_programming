@@ -5,9 +5,9 @@
 
 
 def lookup(obj):
-"""Returns a list of available attributes and methods of the given object.
+    """Returns a list of available attributes and methods of the given object.
 
-Args:
-obj (object): The object to inspect.
-"""
-return dir(obj)
+    Args:
+        obj (object): The object to inspect.
+    """
+    return dir(obj)
