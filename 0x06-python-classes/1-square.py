@@ -5,13 +5,13 @@
 
 
 class Square:
-"""This class defines a square"""
+    """This class defines a square"""
 
-def __init__(self, size):
-"""Initializes a new sqaure instance.
+    def __init__(self, size):
+        """Initializes a new sqaure instance.
 
-Args:
-size (int): The size of the square.
-"""
+        Args:
+            size (int): The size of the square.
+        """
 
-self.__size = size
+        self.__size = size
