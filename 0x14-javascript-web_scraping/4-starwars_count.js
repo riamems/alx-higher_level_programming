@@ -1,4 +1,4 @@
-!/usr/bin/node
+#!/usr/bin/node
 // Number of films with the given character ID
 const request = require('request');
 let num = 0;
